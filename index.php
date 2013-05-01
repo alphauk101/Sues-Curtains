@@ -25,7 +25,13 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>This is a change to reflect github</p>
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo"><img src="images/logo.png" alt="Sues Curtains"/></div>
+            </div>
+            <nav>This is nav</nav>
+            
+        </div>
 
         
         <!--JQUERY-->
