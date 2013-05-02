@@ -66,9 +66,15 @@ div#wrapper
 div#tele /*Contains telephone cursive*/
 {
     display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 10%;
+    margin-bottom: 50px;
 }
 div#logo/*Contains the main cursive font logo image*/
 {
+    width: 100%;
     display: inline-block;
     margin-left: 10px;
     position:relative;
