@@ -27,9 +27,15 @@
         <!-- Add your site or application content here -->
         <div id="wrapper">
             <div id="header">
+                <div id="peal"><img src="images/page_leaf.png" alt="page peal"/></div>
                 <div id="logo"><img src="images/logo.png" alt="Sues Curtains"/><div id="tele"><img src="images/tele.png" alt="Telephone: 012345687886"/><img src="images/fb_icon.png" alt="Facebook"/></div></div>
             </div>
-            <nav class="gradient">This is nav</nav>
+            <nav class="gradient">
+                |
+                <a class="navi" href="http://www.google.co.uk">Home</a>   |
+                <a class="navi" href="#">Information</a>    |
+                <a class="navi" href="#">Contact</a>    |
+            </nav>
             
         </div>
 
