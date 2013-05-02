@@ -27,7 +27,7 @@
         <!-- Add your site or application content here -->
         <div id="wrapper">
             <div id="header">
-                <div id="logo"><img src="images/logo.png" alt="Sues Curtains"/></div>
+                <div id="logo"><img src="images/logo.png" alt="Sues Curtains"/><div id="tele"><img src="images/tele.png" alt="Telephone: 012345687886"/></div></div>
             </div>
             <nav class="gradient">This is nav</nav>
             

@@ -61,10 +61,15 @@ nav{
 div#wrapper
 {
     width:100%;
-    
+    margin: 0;
 }
-div#logo
+div#tele /*Contains telephone cursive*/
 {
+    display: inline-block;
+}
+div#logo/*Contains the main cursive font logo image*/
+{
+    display: inline-block;
     margin-left: 10px;
     position:relative;
     top:60%;
@@ -74,7 +79,7 @@ div#header
     min-width: 950px;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url('../images/faded_curtains.png');
+    background-image: url('../images/faded_curtains.jpg');
     height: 300px;
     width: 100%;
 }
