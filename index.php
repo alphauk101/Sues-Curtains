@@ -29,15 +29,11 @@
             <div id="header">
                 <div id="logo"><img src="images/logo.png" alt="Sues Curtains"/></div>
             </div>
-            <nav>This is nav</nav>
+            <nav class="gradient">This is nav</nav>
             
         </div>
 
         
-        <!--JQUERY-->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        
     </body>
 </html>
