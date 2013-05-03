@@ -31,10 +31,11 @@
                 <div id="logo"><img src="images/logo.png" alt="Sues Curtains"/><div id="tele"><img src="images/tele.png" alt="Telephone: 012345687886"/><img src="images/fb_icon.png" alt="Facebook"/></div></div>
             </div>
             <nav class="gradient">
-                |
-                <a class="navi" href="http://www.google.co.uk">Home</a>   |
-                <a class="navi" href="#">Information</a>    |
-                <a class="navi" href="#">Contact</a>    |
+                <ul>
+                    <li><a class="navi" href="http://www.google.co.uk">Home</a></li>
+                    <li><a class="navi" href="#">Information</a></li>
+                    <li><a class="navi" href="#">Contact</a></li>
+                </ul>
             </nav>
             
         </div>

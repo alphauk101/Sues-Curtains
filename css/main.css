@@ -35,8 +35,9 @@ body {
 }
 /*MY CSS CODE*/
 nav{
+
     background-color: rgb(48, 47, 47);
-    height:40px;
+
     text-align: center;
 
     /*Gradient*/
@@ -50,9 +51,27 @@ nav{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
 
 }
-.navi a:hover
+li{
+    line-height: 40px;
+    display: inline-block;
+    width: 15%;
+}
+ul
 {
-    background-color:  #FFA900;
+    margin: 0;
+}
+li a{
+    display: block;
+    transition: background 2s;
+
+}
+ul li a:hover
+{
+    text-decoration: none;
+    background-color: rgb(66,66,66);
+    -moz-transition: background-color 0.5s; /* Firefox 4 */
+    -webkit-transition: background-color 0.5s; /* Safari and Chrome */
+    -o-transition: background-color 0.5s;
 }
 .navi
 {
