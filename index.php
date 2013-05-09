@@ -18,6 +18,11 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/texts.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+           <script src="js/modernizr-2.6.1.min.js"></script>
+        <script src="js/lean-slider.js"></script>
+        <link rel="stylesheet" href="css/lean-slider.css" type="text/css" />
+        <link rel="stylesheet" href="css/sliderDesign.css" type="text/css" />
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -42,7 +47,26 @@
             <br/>
             <div id="jqScroller">
                 <div id="jqholder">
-                    
+                    <div>
+                        <div class="slider-wrapper">
+                            <div id="slider">
+                                <div class="slide1">
+                                    <img src="images/1.jpg" alt="" />
+                                </div>
+                                <div class="slide2">
+                                    <img src="images/2.jpg" alt="" />
+                                </div>
+                                <div class="slide3">
+                                    <img src="images/3.jpg" alt="" />
+                                </div>
+                                <div class="slide4">
+                                    <img src="images/4.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div id="slider-direction-nav"></div>
+                            <div id="slider-control-nav"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <br/>
@@ -54,5 +78,14 @@
                 YAH!</span>
             </div>
         </div>
+    
+    <!--ADDITIONAL Javascript stubs-->
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var slider = $('#slider').leanSlider({
+                        
+        });
+    });
+    </script>
     </body>
 </html>
