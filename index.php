@@ -14,9 +14,10 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/texts.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -37,10 +38,21 @@
                     <li><a class="navi" href="#">Contact</a></li>
                 </ul>
             </nav>
-            
+            <br/>
+            <br/>
+            <div id="jqScroller">
+                <div id="jqholder">
+                    
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <div id="indexInfo">
+                <span class="t1basic">This is some information <br/>
+                about sues curtains<br/>
+                <br/>
+                YAH!</span>
+            </div>
         </div>
-
-        
-        
     </body>
 </html>

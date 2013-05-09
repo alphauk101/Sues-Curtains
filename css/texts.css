@@ -1,0 +1,15 @@
+/* 
+    Document   : texts
+    Created on : 09-May-2013, 16:39:45
+    Author     : Lee
+    Description:
+        Purely font formatting 
+*/
+
+.t1basic
+{
+    color: #FFA900;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+}
+

@@ -30,10 +30,44 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background: #202020;
+    background-image: url('../images/background.gif');
     color: #808080;
+
 }
 /*MY CSS CODE*/
+
+div#jqScroller
+{
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #5b5b5b;
+    
+    -webkit-box-shadow:  1px -5px 3px 1px rgba(00, 00, 00, 0.5);
+    box-shadow:  1px -5px 3px 1px rgba(00, 00, 00, 0.5);
+}
+div#jqholder
+{
+    margin: 0 auto;
+    height: 100%;
+    width: 930px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+div#indexInfo
+{
+    width:950px;
+    background-color: #5b5b5b;
+    -webkit-box-shadow:  1px -5px 3px 1px rgba(00, 00, 00, 0.5);
+        
+        box-shadow:  1px -5px 3px 1px rgba(00, 00, 00, 0.5);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 nav{
 
     background-color: rgb(48, 47, 47);
@@ -62,16 +96,20 @@ ul
 }
 li a{
     display: block;
-    transition: background 2s;
+    transition: background 0.5s;
 
 }
 ul li a:hover
 {
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px;
     text-decoration: none;
     background-color: rgb(66,66,66);
-    -moz-transition: background-color 0.5s; /* Firefox 4 */
-    -webkit-transition: background-color 0.5s; /* Safari and Chrome */
+    -moz-transition: background-color 0.5s; 
+    -webkit-transition: background-color 0.5s;
     -o-transition: background-color 0.5s;
+
+
 }
 .navi
 {
@@ -108,6 +146,7 @@ div#wrapper
 {
     width:100%;
     margin: 0;
+    min-width: 950px;
 }
 div#tele /*Contains telephone cursive*/
 {
