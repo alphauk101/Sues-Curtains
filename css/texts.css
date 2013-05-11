@@ -8,8 +8,21 @@
 
 .t1basic
 {
-    color: #FFA900;
+    color: black;
     font-family: 'Istok Web', sans-serif;
     font-weight: 400;
 }
-
+.tButton
+{
+    color: white;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+.tNav
+{
+    color: white;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}

@@ -33,14 +33,15 @@
         <!-- Add your site or application content here -->
         <div id="wrapper">
             <div id="header">
-                <div id="peal"><img src="images/page_leaf.png" alt="page peal"/></div>
-                <div id="logo"><img src="images/logo.png" alt="Sues Curtains"/><div id="tele"><img src="images/tele.png" alt="Telephone: 012345687886"/><img src="images/fb_icon.png" alt="Facebook"/></div></div>
+                <div class="clsHeader"><img src="images/logoB.png" alt="Sue's Curtains"/></div>
+                <div id="headerCall" class="clsHeader"><span class="t1basic">For a free consultation contact Sue on: 012345678910</span></div>
+                <a href="contact.php"><div id="contactButton" class="clsHeader" onmouseover="this.style.background='#48036F'" onmouseout="this.style.background='#7109AA'"><span class="tButton">CONTACT SUE NOW</span></div></a>
             </div>
-            <nav class="gradient">
+            <nav>
                 <ul>
-                    <li><a class="navi" href="http://www.google.co.uk">Home</a></li>
-                    <li><a class="navi" href="#">Information</a></li>
-                    <li><a class="navi" href="#">Contact</a></li>
+                    <li><a class="navi" href="http://www.google.co.uk"><span class="tNav">Home</span></a></li>
+                    <li><a class="navi" href="#"><span class="tNav">Information</span></a></li>
+                    <li><a class="navi" href="#"><span class="tNav">Contact</span></a></li>
                 </ul>
             </nav>
             <br/>

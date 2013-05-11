@@ -6,14 +6,14 @@
  * Kroc Camen, and the H5BP dev community and team.
  
     Colours of site
-   var. 1 = #FFA900 = rgb(255,169,0)LIGHT YELLOW
-   var. 2 = #A88239 = rgb(168,130,57)
-   var. 3 = #855800 = rgb(133,88,0)
-   var. 4 = #FFB525 = rgb(255,181,37)
-   var. 5 = #FFBF43 = rgb(255,191,67)DARKEST YELLOW
+/*
 
-    Background #202020;
-    liftoff colour #808080
+FFFF00
+BFBF30
+A6A600
+FFFF40
+FFFF73
+*/
  
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -30,9 +30,8 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background-image: url('../images/background.gif');
-    color: #808080;
-
+    color: #f8f4f0;
+    background: rgb(243,243,243);
 }
 /*MY CSS CODE*/
 
@@ -63,29 +62,18 @@ div#indexInfo
     width:950px;
     background-color: #5b5b5b;
     -webkit-box-shadow:  1px -5px 3px 1px rgba(00, 00, 00, 0.5);
-        
-        box-shadow:  1px -5px 3px 1px rgba(00, 00, 00, 0.5);
+    box-shadow:  1px -5px 3px 1px rgba(00, 00, 00, 0.5);
     border-radius: 15px;
     margin: 0 auto;
     padding: 10px;
 }
 
 nav{
-
-    background-color: rgb(48, 47, 47);
-
+    background-color: #696058;
     text-align: center;
-
-    /*Gradient*/
-    background: #5b5b5b; /* Old browsers */
-    background: -moz-linear-gradient(top,  #5b5b5b 0%, #131313 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b5b5b), color-stop(100%,#131313)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #5b5b5b 0%,#131313 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #5b5b5b 0%,#131313 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #5b5b5b 0%,#131313 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #5b5b5b 0%,#131313 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
-
+    -webkit-box-shadow:  0px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        
+        box-shadow:  0px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 li{
     line-height: 40px;
@@ -115,7 +103,7 @@ ul li a:hover
 }
 .navi
 {
-    color: #FFA900;
+    color: white;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -169,12 +157,38 @@ div#logo/*Contains the main cursive font logo image*/
 }
 div#header
 {
-    min-width: 950px;
-    background-repeat: no-repeat;
+    background-color: rgb(255,255,203);
+    min-width: 1000px;
+    width: 1000px;
+    padding: 10px;
     background-size: 100%;
-    background-image: url('../images/faded_curtains.jpg');
-    height: 300px;
-    width: 100%;
+    height: 115px;
+    margin: 0 auto;
+    border-left: 1px solid #5b5b5b;
+    border-right: 1px solid #5b5b5b;
+}
+div#headerCall
+{
+    position: relative;
+    top:40px;   
+    left:195px;
+}
+.clsHeader
+{
+    display: inline-block;
+}
+div#contactButton
+{
+    background: #7109AA;
+    border-radius: 20px;
+    border: 1px solid #48036F;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+    position: relative;
+    top:39px;
+    left:220px;
 }
 
 /*END OF MY CODE*/
