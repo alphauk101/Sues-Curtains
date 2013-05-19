@@ -33,8 +33,11 @@
         <!-- Add your site or application content here -->
         <div id="wrapper">
             <div id="header">
-                <div class="clsHeader"><img src="images/logoB.png" alt="Sue's Curtains"/></div>
-                <div id="headerCall" class="clsHeader"><span class="t1basic">For a free consultation contact Sue on: 012345678910</span></div>
+                <div class="clsHeader"><img src="images/logoB.png" alt="Sue's Curtains"/>
+                <br/>
+                <span class="t1basic">Curtain Makers for over 30 years</span>
+                </div>
+                <div id="headerCall" class="clsHeader"><span class="t1basic">For a free consultation contact Sue on: 07980 151972</span></div>
                 <a href="contact.php"><div id="contactButton" class="clsHeader" onmouseover="this.style.background='#48036F'" onmouseout="this.style.background='#7109AA'"><span class="tButton">CONTACT SUE NOW</span></div></a>
             </div>
             <nav>
@@ -44,10 +47,10 @@
                     <li><a class="navi" href="#"><span class="tNav">Contact</span></a></li>
                 </ul>
             </nav>
-            <br/>
-            <br/>
-            <div id="jqScroller">
-                <div id="jqholder">
+            <!--Main body div below nav-->
+            <div id="main">
+            <br/><br/>
+            <div id="jqholder">
                     <div>
                         <div class="slider-wrapper">
                             <div id="slider">
@@ -70,7 +73,6 @@
                     </div>
                 </div>
             </div>
-            <br/>
             <br/>
             <div id="indexInfo">
                 <span class="t1basic">This is some information <br/>

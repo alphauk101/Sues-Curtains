@@ -167,10 +167,24 @@ div#header
     border-left: 1px solid #5b5b5b;
     border-right: 1px solid #5b5b5b;
 }
+div#main
+{
+  position: relative;
+  top:5px;
+  
+    background-color: rgb(255,255,203);
+    min-width: 1000px;
+    width: 1000px;
+    padding: 10px;
+    background-size: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #5b5b5b;
+    border-right: 1px solid #5b5b5b;
+  border-bottom:1px solid #5b5b5b;
+}
 div#headerCall
 {
-    position: relative;
-    top:40px;   
+    position: relative;   
     left:195px;
 }
 .clsHeader
@@ -187,8 +201,7 @@ div#contactButton
     padding-right: 8px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
     position: relative;
-    top:39px;
-    left:220px;
+    left:215px;
 }
 
 /*END OF MY CODE*/
