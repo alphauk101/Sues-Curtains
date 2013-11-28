@@ -114,7 +114,36 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3399ff', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
 }
 
+div#content-center-right-gallery
+{
+    
+    margin: 24px;
+    padding: 10px;
+    width:450px;
+    height:450px;
+    -webkit-box-shadow:  0px 0px 30px 1px #b7b7b7;
+    box-shadow:  0px 0px 30px 1px #b7b7b7;
+}
 
+div#gallery-main
+{
+    width:340px;
+    height:340px;
+    margin-left: 110px;
+}
+
+div#gallery-side
+{
+    width:450px;
+    height:430px;
+}
+
+div#content-center-right
+{
+    width: 495px;
+    height: 495px;
+    display: inline-block;
+}
 div#header
 {
    min-width: 1164px;
@@ -163,8 +192,10 @@ div#content-center
 
 div#content-center-left
 {
-    
+    width: 495px;
+    display: inline-block;
 }
+
 
 
 
@@ -358,4 +389,6 @@ div#content-center-left
     h3 {
         page-break-after: avoid;
     }
+    
+
 }
