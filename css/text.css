@@ -1,0 +1,30 @@
+.textNormal{
+    font-family: Century Gothic, sans-serif;
+    color:#666666;
+}
+.textWhite
+{
+    font-family: Century Gothic, sans-serif;
+    color:white;
+}
+.textLarge{
+   font-family: Century Gothic, sans-serif;
+   color:#666666;
+   font-size: xx-large;
+}
+.textInfo
+{
+   font-family: Century Gothic, sans-serif;
+   color:#666666;
+   text-align: justify;
+}
+li
+{
+       font-family: Century Gothic, sans-serif;
+   color:#666666;
+}
+.textSmall
+{
+    font-family: Century Gothic, sans-serif;
+    font-size: small;
+}
