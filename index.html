@@ -11,16 +11,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        
+        <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/text.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/unslider.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+           $(document).ready(function () {
+               $(function()
+               {
+                    $('.banner').unslider();
+                });
+
+        });
+        
+        </script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        
         <div id="header">
             <div id="header-logo">
                 <img src="img/logo.png" alt="Sues Curtains"/>
@@ -43,11 +57,16 @@
 
         <div id="Content">
             <div id="content-center">
+                <div id="content-center-title">
+                    <h1 class="textNormal">
+                        <b>Sues Curtains</b> - Provider of top quality curtains of all shapes and styles.<br/>
+                        Professional looking curtains can transform any room to look and feel perfect.<br/>
+                    </h1>
+                </div>
+                <hr/>
                 <div id="content-center-left">
-                    <span class="textLarge">Sues Curtains</span>
-                    <hr/>
                     <div id="content-center-left-faded">
-                        <img src="img/fadedBc.jpg" alt="Faded swag">
+                        <img src="img/fadedBc.jpg" alt="Free Quotes on all producs">
                     </div>
                     <hr/>
                     <div id="content-center-left-info">
@@ -81,25 +100,69 @@
                             </span>
                         </div>
                     </div>
+                    
+                        <div id="content-center-left-contact">
+                            <a href="mailto:">
+                                <div id="link-button" class="h-over">
+                                    <span class="textNormal"><b>Contact Sues Curtains</b></span>
+                            </div>
+                            </a>
+                        </div>
+                    
                 </div>
                 <div id="content-center-right">
                     <div id="content-center-right-gallery">
                         <div id="gallery-side">
                             <div id="gallery-main">
-                                <img src="img/gallery/1.jpg" alt="example"/>                            
+                                <div class="banner">
+                                    <ul>
+                                        <li><img src="img/gallery/1.jpg"/></li>
+                                        <li><img src="img/gallery/1.jpg"/></li>
+                                        <li><img src="img/gallery/1.jpg"/></li>
+                                    </ul>
+                                </div>                           
                             </div>
                             <hr/>
                             <div id="gallery-main-under">
                                 <img src="img/marqee.jpg" alt="words">
                             </div>
                         </div>
-                        
-                        
-                        
                     </div>
                 </div>
+            
+            <hr>
+            <div id="lower-content">
+                <div id="lower-content-top">
+                
+                   <h2 class="textH">Services that Sues Curtains can provide offer</h2>
+                
+                   <span class="textSmall">Apart from the finest standard of curtain making Sues Curtains can also offer:<br/></span>
+                    <ul>
+                        <li>
+                            Experienced consultations at your home on what styles and fabrics best suite your needs.
+                        </li>
+                        <li>
+                            Massive range of  available fabrics. 
+                        </li>
+                        <li>
+                            Alterations on old curtains and blinds that will look professional and in keeping with the original style.
+                        </li>
+                        <li>
+                            24 years experience in Curtains and blind making 
+                        </li>
+                </div>
+                <div id="lower-content-image">
+                    <img alt="Sue at work making curtains" src="img/download.jpg">
+                </div>
+            </div> 
+            <hr>
+            <div id="content-bottom">
+                <span class="textInfo">Don't delay you are one click away from those perfect handmade curtains or blinds!</span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <a href="mailt:"><b>Click Here!</b></a>
+                <br>
+         
             </div>
         </div>
+    </div>
 
         
         

@@ -1,6 +1,8 @@
 .textNormal{
     font-family: Century Gothic, sans-serif;
     color:#666666;
+    font-size: medium;
+    font-weight: normal;
 }
 .textWhite
 {
@@ -12,16 +14,21 @@
    color:#666666;
    font-size: xx-large;
 }
+.textH{
+   font-family: Century Gothic, sans-serif;
+   color:#666666;
+   font-size: large;
+}
 .textInfo
 {
    font-family: Century Gothic, sans-serif;
-   color:#666666;
+   
    text-align: justify;
 }
 li
 {
        font-family: Century Gothic, sans-serif;
-   color:#666666;
+
 }
 .textSmall
 {
