@@ -272,7 +272,34 @@ div#email-div
 {
     margin-left: 30px;
 }
-
+div#web-form
+{
+    
+}
+div#input-div
+{
+    text-align: right;
+}
+div#web-form-inner
+{
+    width:465px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 7px;
+    border:thin solid gray;
+    background-color: #f4f4f4;
+}
+input[type=text]
+{
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+}
 div#map
 {
     width: 400px;
