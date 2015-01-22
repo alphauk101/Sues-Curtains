@@ -15,7 +15,7 @@ $youremail = "hanna.leake1@googlemail.com";
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
-$msg = $_post['message'];
+$msg = $_POST['message'];
  
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
     if (mail($youremail, 'Enquiry from Sues Curtains website.', $msg, "From: <$email>")) {
